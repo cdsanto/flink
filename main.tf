@@ -37,7 +37,7 @@ module "vpc" {
 
   tags = {
     Owner       = "user"
-    Environment = "devops"
+    Environment = "devops-test"
   }
 
   vpc_tags = {
